@@ -62,7 +62,7 @@ section {
         color: $bright-gray;
     }
     img {
-        width: 10vw;
+        width: 100px;
         height: auto;
         padding-left: 1px;
     }
@@ -75,7 +75,7 @@ section {
     }
     img {
         margin-left: 5px;
-        width: 5vw;
+        width: 25px;
         height: auto;
     }
 }
@@ -84,6 +84,6 @@ section {
     @extend %sides;
     a {
         color: yellow;
-        font-size: 2vw;
+        font-size: 25px;
     }
 }

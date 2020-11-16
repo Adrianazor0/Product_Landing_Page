@@ -7,10 +7,10 @@
                 </div>
             </form>
             <div class="row">
-                <div id="leftSide" class="col-sm d-flex justify-content-start align-items-end">
+                <div id="leftSide" class="col-sm align-items-end">
                     <img src="imágenes/logo-nzxt.png" class="img-fluid"/> <cite>2018. All Rights Are Reserved.</cite>
                 </div>
-                <div id="centeredOne" class="col-sm d-flex justify-content-center align-items-end">
+                <div id="centeredOne" class="col-sm d-flex  align-items-end">
                     <a href="#">Privacy Policy</a> 
                     <a href="#">Terms of Service</a> 
                     <img src="imágenes/eeuu_band.jpg" class="img-fluid"/><div class="btn-group dropup">
@@ -23,7 +23,7 @@
                         </div>
                       </div>
                 </div>
-                <div id="rightSide" class="col-sm d-flex justify-content-end align-items-end">
+                <div id="rightSide" class="col-sm d-flex align-items-end">
                     <a href="www.facebook.com"><i class="fab fa-facebook-square"></i></a>
                     <a href="www.twitter.com"><i class="fab fa-twitter"></i></a>
                     <a href="www.instagram.com"><i class="fab fa-instagram"></i></a>
