@@ -1,0 +1,33 @@
+$light-color: white;
+$green-color: #4DB6AC;
+$gray-color: #2b2a2ae3;
+$bright-gray: #6b6b6b;
+$font-repository: Arial,
+helvetica,
+sans-serif;
+$enable-responsive-font-sizes: true;
+@mixin keyframes($animation-name) {
+    @-webkit-keyframes #{$animation-name} {
+        @content;
+    }
+    @-moz-keyframes #{$animation-name} {
+        @content;
+    }
+    @-ms-keyframes #{$animation-name} {
+        @content;
+    }
+    @-o-keyframes #{$animation-name} {
+        @content;
+    }
+    @keyframes #{$animation-name} {
+        @content;
+    }
+}
+
+@mixin animation($str) {
+    -webkit-animation: #{$str};
+    -moz-animation: #{$str};
+    -ms-animation: #{$str};
+    -o-animation: #{$str};
+    animation: #{$str};
+}

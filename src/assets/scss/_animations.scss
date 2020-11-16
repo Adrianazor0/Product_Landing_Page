@@ -1,0 +1,79 @@
+@include keyframes(fade-in) {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+}
+
+#fadeIn {
+    @include animation('fade-in 5s 1');
+}
+
+@include keyframes(font-color) {
+    0% {
+        color: red;
+    }
+    10% {
+        color: blue;
+    }
+    20% {
+        color: black;
+    }
+    30% {
+        color: white;
+    }
+    40% {
+        color: gold;
+    }
+    50% {
+        color: pink;
+    }
+    60% {
+        color: aqua;
+    }
+    70% {
+        color: orange;
+    }
+    80% {
+        color: green;
+    }
+    90% {
+        color: maroon
+    }
+    100% {
+        color: wheat;
+    }
+}
+
+#features h2,
+h5 {
+    @include animation('font-color 20s infinite');
+}
+
+@include keyframes(fade-in) {
+    0% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+}
+
+#experience #divUp {
+    @include animation('fade-in 5s infinite');
+}
+
+@include keyframes(fade-out) {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#reviews .card {
+    @include animation('fade-out 10s infinite');
+}

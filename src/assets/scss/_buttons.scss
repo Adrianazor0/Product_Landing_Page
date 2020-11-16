@@ -1,0 +1,36 @@
+%btn {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+}
+
+#btnNav {
+    @extend %btn;
+}
+
+#btnStarted {
+    @extend %btn;
+}
+
+#experienceBtn {
+    @extend %btn;
+    background-color: $green-color;
+    color: $light-color;
+}
+
+#learnBtn {
+    @extend %btn;
+}
+
+#languageBtn {
+    @extend %btn;
+    border: none;
+    font-size: 1vw;
+    width: min-content;
+    width: max-content;
+    margin: 0;
+}
+
+#languageBtn:hover {
+    background-color: transparent;
+}
